@@ -5,7 +5,7 @@ runEarly = false
 runnerAge = 19 ; 
 
 if (runnerAge >= 18 ) {
-  raceNumber + 1000
+  raceNumber += 1000
 }
 
 if (runnerAge >= 18 && runEarly) {
