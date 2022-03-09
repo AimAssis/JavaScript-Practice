@@ -1,0 +1,36 @@
+﻿<!-- THE STYLE OF THE WEBSITE   -->
+<style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+    }
+  </style>
+  
+  
+  <h1>REAL ESTATE </h1>
+  <script src="housesAndMoney.js"></script>
+ 
+
+  <!-- The amount of cash and houses --> 
+  <h3 id="cash"> </h3>
+  <h3 id="housesAvailable"> </h3>
+  
+  
+  <p id="housePurchaseQuestion"> </p>
+  <!-- the yes and no button and the question is above -->
+  <button type="button" onclick="buttonPress(true)">yes</button>
+  <button type="button" onclick="buttonPress(false)">no</button>
+  <button type="button" onclick="buttonPress">Work</button>
+  
+  <!-- Output is the amount of houses left and noHouses is what happens if theres no houses left -->
+  <p id="output"></p>
+  <p id="noHouses"></p>
+  
+  <script>
+   
+    var h1 = document.querySelector('h1');
+    console.log(h1.textContent);
+  </script>
+  
+
+    
+    
